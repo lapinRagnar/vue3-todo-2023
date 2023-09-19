@@ -112,3 +112,25 @@ onMounted(() => {
 </template>
 
 
+<style>
+body {  
+
+  margin: auto;
+
+  @media screen and (min-width: 950px) {
+  /* Your styles for large screens go here */
+
+    width: 70vw;
+
+    .create-todo input[type="submit"]{
+      width: 300px;
+    }
+
+  }
+
+  
+  
+}
+
+
+</style>
